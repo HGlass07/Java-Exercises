@@ -31,8 +31,7 @@ public class Restaurant {
 	        return "Menu Item: {item='" + menuItem + "', price='" + price + "'}";
 	    } 
 	}
-	
-	// Nested RestaurantDetails class
+
 	public class RestaurantDetails {
 		private String restaurantName;
 		private int rating;
