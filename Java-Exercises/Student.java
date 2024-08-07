@@ -35,7 +35,6 @@ public class Student {
     	
     }
     
-    
     public void removeCourse(String course) {
         if (courses.contains(course)) {
             courses.remove(course);
