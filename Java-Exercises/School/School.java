@@ -27,7 +27,6 @@ public class School {
 	public List<Students> students() {
 		return students;
 	}
-
 	
 	public void addStudent(String studentName) {
 		students.add(new Students(studentName));
@@ -60,8 +59,7 @@ public class School {
             System.out.println();
         }
     }
-	
-	
+ 
 	public static void main(String[] args) {
 		School.addClass("English", "Mr Matthews");
 		School.addClass("History", "Mrs Johnson");
