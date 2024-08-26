@@ -1,6 +1,6 @@
-package Shape;
+package shape2;
 
-public class Triangle {
+public class Triangle extends Shape{
 	private double side;
 	
 	public Triangle(double side) {
@@ -14,10 +14,11 @@ public class Triangle {
 		this.side = side;
 	}
 	
-	public double calcTrianglePerimeter() {
+	@Override
+	public double calcPerimeter() {
 		return 3 * side;
 	}
-	public double calcTriangleArea() {
+	public double calcArea() {
 		return (Math.sqrt(3) / 4) * (side * side);
 	}
 
